@@ -1,0 +1,23 @@
+<html>
+  <head>
+      <script type="text/javascript" src="js/app.js"></script>
+      <link rel="stylesheet" href="css/myStyle.css" type="text/css">
+      <title>My ToDoList</title>
+  </head>
+  <body>
+        <h1>My ToDoList Application 1.0</h2>
+        <fieldset>
+          <legend>Add new activity</legend>
+          <input type="text" id="newActivity">
+          <button onclick="addActivity();" class="btnAction"> Add </button>
+          <button onclick="clearList();" class="btnAction"> Clear </button>
+          &nbsp;
+          <label id="numActivities"> 0</label>
+        </fieldset>
+        <fieldset>
+          <legend>List</legend>
+          <ul id="listActivity">
+          </ul>
+        </fieldset>
+  </body>
+</html>

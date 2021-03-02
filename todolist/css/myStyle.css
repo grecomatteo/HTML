@@ -1,0 +1,28 @@
+body{
+    font-size: 12px;
+}
+
+h1{
+    font-size:14px;
+    color :red;
+}
+#listActivity{
+    color: blue;
+}
+
+#numActivities{
+    color : red;
+}
+
+.btnAction{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.todo {
+    text-decoration: none;
+    color:blue;
+}
+.done{
+    text-decoration-line: line-through;
+}
