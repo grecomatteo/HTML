@@ -19,8 +19,9 @@ function addActivity(){
                 this.classList.add("done");
             }     
         }
-        // incrementiamo il contatore e mettiamolo in HTML
+        // incrementiamo il contatore 
         numActivities++;
+        //mettiamo il contatore nell'html
         document.getElementById("numActivities").innerHTML = numActivities;
         // aggiungo elemento alla lista "listActivity"
         document.getElementById("listActivity").appendChild(nActItem);
