@@ -1,28 +1,48 @@
 body{
-    font-size: 12px;
+    font-size: 1.1em;
 }
 
 h1{
-    font-size:14px;
+    font-size: 2rem;
     color :red;
 }
+
 #listActivity{
-    color: blue;
+    color: #FF5F6D;
+    font-size: 1.2rem;
+
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #numActivities{
-    color : red;
+
+    color : white;
+    background-color:  #338AF2;
+    
+}
+
+#listActivity li img{
+    width: 18;
 }
 
 .btnAction{
-    background-color: cornflowerblue;
+    background-color: #338AF2;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.btnAction:hover{
+    background-color: rgb(78, 120, 197);
     color: white;
 }
 
 .todo {
     text-decoration: none;
-    color:blue;
+    color: #FF5F6D;
 }
-.done{
-    text-decoration-line: line-through;
-}
+
+
